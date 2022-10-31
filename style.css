@@ -1,10 +1,12 @@
 body {
     background-color: #cecec6;
+    padding: 20px 0;
 }
 
 .caixa {
     position: relative;
     width: 940px;
+    margin: 0 auto;
 }
 
 nav {  
