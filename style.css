@@ -2,6 +2,10 @@ body {
     background-color: #cecec6;
 }
 
+.caixa {
+    width: 940px;
+}
+
 nav {  
     position: absolute;
     top: 80px;
