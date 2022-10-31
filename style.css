@@ -2,6 +2,14 @@ body {
     background-color: #cecec6;
 }
 
+nav {  
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
 header {
     background: #4a94e2;
 }
