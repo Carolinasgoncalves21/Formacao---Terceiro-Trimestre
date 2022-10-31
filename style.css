@@ -22,14 +22,17 @@ nav a {
 h1 {
     color: #4a94e2;
     text-align: center;
+    font-size: 30px;
 }
+
 h2 {
     color: #301ac4;
 }
+
 p {
     color:  #2db7bc;
-
 }
+
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
