@@ -42,6 +42,8 @@ h1 {
     color: #4a94e2;
     text-align: center;
     font-size: 30px;
+    border: 5px red dashed;
+    padding-bottom: 50px;
 }
 
 h2 {
