@@ -1,6 +1,7 @@
 body {
     background-color: #cecec6;
-    padding: 20px 0;
+    padding: 0 0px;
+    height: 300vh;
 }
 
 .caixa {
@@ -9,29 +10,28 @@ body {
     margin: 0 auto;
 }
 
-nav {  
+nav {
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 0;
 }
 
 header {
+    position: sticky;
     background: #4a94e2;
-}
-
-nav {
-    position: absolute;
+    padding: 20px 0;
     top: 0;
+    right: 0;
 }
 
 nav li {
     display: inline;
-    margin: 15 15 15 15px,
+    margin: 0 0 0 15px,
 }
 
 nav a {
     text-transform: uppercase;
-    color:#e4f805;
+    color:#cbcbcb;
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
@@ -48,8 +48,9 @@ h1 {
     color: #4a94e2;
     text-align: center;
     font-size: 30px;
-    border: 5px red dashed;
-    padding-bottom: 50px;
+    border: 5px #2169a3 dashed;
+    padding-bottom: 5px;
+    margin-right: 5px;
 }
 
 h2 {
@@ -57,19 +58,20 @@ h2 {
 }
 
 p {
-    color:  #2db7bc;
+    color:  #408fce;
 }
 
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
-    border: 5px dotted salmon;
+    border: 5px dotted #2f74c8;
     float: left;
     position: absolute;
+    z-index: -1;
 }
 
 .texto-principal {
-    margin-right: 20%; 
+    margin-left: .5%;
 }
 
 .itens {
