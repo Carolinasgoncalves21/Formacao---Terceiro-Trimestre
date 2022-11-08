@@ -65,7 +65,7 @@ p {
     width: 10%;
     margin-left: 80%;
     border: 5px dotted #2f74c8;
-    float: left;
+    flexbox: left;
     position: absolute;
     z-index: -1;
 }
