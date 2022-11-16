@@ -44,6 +44,7 @@ h2, h3, p, ul, li {
 
 
 h1 {
+    font-family: 'Dancing Script', cursive;
     font-size: 30px;
     color: #4a94e2;
     text-align: center;
