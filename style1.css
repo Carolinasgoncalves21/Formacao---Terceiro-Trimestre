@@ -45,10 +45,15 @@ h2, h3, p, ul, li {
 
 h2 {
     color: #301ac4;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: lowercase;
+
 }
 
 p {
     color:  #408fce;
+    font-size: 25px;
 }
 
 .participantes, .formadores {

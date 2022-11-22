@@ -56,10 +56,13 @@ h1 {
 
 h2 {
     color: #301ac4;
+    font-weight: bold;
+    
 }
 
 p {
     color:  #408fce;
+    font-size: 25px;
 }
 
 #imagem-principal {
