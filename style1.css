@@ -47,7 +47,7 @@ h2 {
     color: #301ac4;
     font-weight: bold;
     font-size: 30px;
-    text-transform: lowercase;
+    text-transform: inherit;
 
 }
 
@@ -59,7 +59,7 @@ p {
 .participantes, .formadores {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 .participantes li {
