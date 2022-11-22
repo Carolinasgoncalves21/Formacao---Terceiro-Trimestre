@@ -4,6 +4,39 @@ body {
     height: 300vh;
 }
 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+header {
+    position: sticky;
+    background: #4a94e2;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px,
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#cbcbcb;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 h2, h3, p, ul, li {
     padding: 5px;
     margin: 5px;
@@ -18,7 +51,7 @@ p {
 }
 
 .participantes, .formadores {
-    width: 25%;
+    width: 35%;
 }
 
 .participantes li {
