@@ -1,0 +1,26 @@
+body {
+    background-color: #cecec6;
+    padding: 0 0px;
+    height: 300vh;
+}
+
+h2, h3, p, ul, li {
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    color: #301ac4;
+}
+
+p {
+    color:  #408fce;
+}
+
+.participantes, .formadores {
+    width: 25%;
+}
+
+.participantes li {
+    display: inline-block;
+}
