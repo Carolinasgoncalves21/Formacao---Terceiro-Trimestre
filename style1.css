@@ -48,23 +48,31 @@ h2 {
     font-weight: bold;
     font-size: 30px;
     text-transform: inherit;
+    width: 80%;
 
 }
 
 p {
     color:  #408fce;
     font-size: 25px;
+    
 }
 
 .participantes, .formadores {
     width: 100px;
-    margin: 0 auto;
-    padding: 10px 0;
+    display: flex;
+    text-align: center;
+   
+    
 }
 
 .participantes li {
-    display: inline-block;
     text-align: center;
-    width: 10%;
+    display: inline-block;    
+    border: 5px outset red;
+    border-radius: 30%;
+    ;
+    
+    
    
 }
