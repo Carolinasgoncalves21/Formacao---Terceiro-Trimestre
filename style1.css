@@ -62,19 +62,18 @@ p {
     width: 100px;
     display: flex;
     text-align: center;
-   
-    
+     
 }
 
 .participantes li {
     text-align: center;
     display: flex; 
+    flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    align-content: center;
     border: 5px outset red;
     border-radius: 30%;
-    ;
-    
-    
+      
    
 }
