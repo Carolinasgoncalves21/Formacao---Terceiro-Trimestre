@@ -74,6 +74,10 @@ p {
     align-content: center;
     border: 5px outset red;
     border-radius: 30%;
-      
    
+}
+
+footer {
+    text-align: center;
+    background-image: url(fundo.jpg);
 }
