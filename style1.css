@@ -68,7 +68,9 @@ p {
 
 .participantes li {
     text-align: center;
-    display: inline-block;    
+    display: flex; 
+    align-items: center;
+
     border: 5px outset red;
     border-radius: 30%;
     ;
