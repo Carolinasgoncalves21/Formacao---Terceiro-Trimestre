@@ -58,7 +58,7 @@ h1 {
 h2 {
     color: #301ac4;
     font-weight: bold;
-    
+
 }
 
 p {
@@ -82,4 +82,24 @@ p {
 .itens {
 	color: blue;
 	text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg");
+    padding: 40px 0;
+}
+
+footer url {
+  opacity: 0.5;
+}
+
+.imgrodape {
+  width: 200px;
+}
+
+.copyright {
+    color: blue;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
