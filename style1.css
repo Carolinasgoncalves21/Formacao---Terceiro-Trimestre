@@ -44,9 +44,10 @@ h2, h3, p, ul, li {
 }
 
 h2 {
+    text-align: center;
     color: #301ac4;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: inherit;
     width: 80%;
 
@@ -54,12 +55,12 @@ h2 {
 
 p {
     color:  #408fce;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
 .participantes, .formadores {
-    width: 100px;
+    width: 300px;
     display: flex;
     text-align: center;
      
@@ -72,8 +73,8 @@ p {
     align-items: center;
     justify-content: center;
     align-content: center;
-    border: 5px outset red;
-    border-radius: 30%;
+    border: 5px outset navy;
+    border-radius: 10%;
    
 }
 

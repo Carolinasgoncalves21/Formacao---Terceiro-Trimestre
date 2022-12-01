@@ -1,0 +1,91 @@
+body {
+    height: 300vh;
+    background-color: #cecec6;
+    padding: 0 0px;
+    height: 400vh;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    position:sticky;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+header {
+    position: sticky;
+    background: #4a94e2;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px,
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#cbcbcb;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+h2, h3, p, ul, li {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;  
+    z-index: -1;
+}
+
+.exemplo1 {
+    margin-top: 280px;
+    background-color: blue;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.exemplo2 {
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.exemplo3 {
+    margin-top: 100px;
+    background-color: purple;
+    position: absolute;
+}
+
+.exemplointerno {
+    margin-top: 100px
+    position: sticky;
+    transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: navy;
+}

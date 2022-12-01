@@ -88,6 +88,10 @@ footer {
     text-align: center;
     background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg");
     padding: 40px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
 }
 
 footer url {
